@@ -564,7 +564,7 @@ itemButtons.appendChild(itemLeftButtons)
 
 var itemToggle = document.createElement("div")
 itemToggle.className = "item-toggle"
-itemToggle.setAttribute("onclick", "toggleExtension(this, '" + data.id + "');toggle(this)")
+itemToggle.setAttribute("onclick", "removeExtension(this, '" + data.id + "');toggle(this)")
 itemToggle.setAttribute("onmousedown", "togglePress(this, 'down')")
 itemToggle.setAttribute("onmouseup", "togglePress(this, 'up')")
 if (!data.enabled) {
